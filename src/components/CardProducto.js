@@ -34,9 +34,11 @@ class CardProducto extends Component {
               <a href={`/details/${this.props.id}`}>{this.props.instrumento}</a>
             </Card.Title>
             <Card.Text>
-              <h3>${this.props.precio}</h3>
+              <h3 className="precio">${this.props.precio}</h3>
               <p>{this.costoDescripcion}</p>
-              <p>{this.props.cantidadVendida} vendidos</p>
+              <p className="cantidadVendida">
+                {this.props.cantidadVendida} vendidos
+              </p>
             </Card.Text>
             <Button variant="primary" href={`/details/${this.props.id}`}>
               Detalle

@@ -28,5 +28,14 @@
 
 h2.precio {
     font-size: 36px;
-    font-weight: normal;
+    font-weight: 100;
+}
+
+.precio {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.cantidadVendida {
+    font-size: 14px;
 }
